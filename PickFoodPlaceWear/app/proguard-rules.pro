@@ -1,0 +1,6 @@
+-dontobfuscate
+-keep class com.google.gson.** { *; }
+-keep class com.squareup.moshi.** { *; }
+-keep class kotlinx.coroutines.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
